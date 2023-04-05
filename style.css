@@ -1,0 +1,127 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+/* Form styling */
+.expense-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 20px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.form-group {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-bottom: 10px;
+}
+
+label {
+	margin-bottom: 5px;
+}
+
+input[type="date"],
+input[type="text"],
+input[type="number"] {
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	width: 100%;
+}
+
+input[type="submit"] {
+	padding: 5px 10px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	width: auto;
+}
+
+input[type="submit"]:hover {
+	background-color: #3e8e41;
+}
+
+.btn {
+	display: inline-block;
+	margin-top: 10px;
+}
+
+table {
+	border-collapse: collapse;
+	margin-top: 20px;
+	width: 100%;
+}
+
+th, td {
+	border: 1px solid #ccc;
+	padding: 10px;
+	text-align: left;
+}
+
+th {
+	background-color: #333;
+	color: #fff;
+}
+
+/* Datepicker styling */
+.ui-datepicker {
+	font-size: 14px;
+}
+
+.ui-datepicker-header {
+	background-color: #4CAF50;
+	color: white;
+}
+
+.ui-datepicker-prev,
+.ui-datepicker-next {
+	background-color: white;
+	color: #4CAF50;
+}
+
+.ui-datepicker-calendar a {
+	color: #555;
+}
+
+.ui-datepicker-calendar a:hover {
+	background-color: #eee;
+	color: black;
+}
+
+.ui-datepicker-current-day a {
+	background-color: #4CAF50;
+	color: white;
+}
+
+.ui-datepicker-inline {
+	width: 100%;
+}
+
+.datepicker {
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	width: 100%;
+	background: url('https://jqueryui.com/resources/demos/datepicker/images/calendar.gif') no-repeat right center;
+	background-size: 20px;
+}
